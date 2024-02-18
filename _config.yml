@@ -30,8 +30,9 @@ twitter_username: jekyllrb
 github_username:  marina3927
 
 # cayman theme variable
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
+show_downloads: true
+  # ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+  # google_analytics: [Your Google Analytics tracking ID]
 
 # Build settings
 # theme: jekyll-theme-cayman
