@@ -29,11 +29,16 @@ url: "https://marina3927.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  marina3927
 
-# Build settings
-theme: jekyll-theme-cayman
-# To use any other Jekyll theme hosted on GitHub, type remote_theme: THEME-NAME, replacing THEME-NAME with the name of the theme as shown in the README of the theme's repository.
+# cayman theme variable
+show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+google_analytics: [Your Google Analytics tracking ID]
 
+# Build settings
+# theme: jekyll-theme-cayman
+# To use any other Jekyll theme hosted on GitHub, type remote_theme: THEME-NAME, replacing THEME-NAME with the name of the theme as shown in the README of the theme's repository.
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
+  - jekyll-remote-theme 
   - jekyll-feed
 
 # Exclude from processing.
