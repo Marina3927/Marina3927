@@ -37,11 +37,18 @@ github_username:  marina3927
 # theme: jekyll-theme-cayman
 # theme: minimal
 # To use any other Jekyll theme hosted on GitHub, type remote_theme: THEME-NAME, replacing THEME-NAME with the name of the theme as shown in the README of the theme's repository.
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-  - jekyll-remote-theme 
+# remote_theme: pages-themes/cayman@v0.2.0
+# plugins:
+#  - jekyll-remote-theme 
+#  - jekyll-feed
+# theme: jekyll-theme-basically-basic
+#
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+plugins: # previously gems
   - jekyll-feed
-
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
