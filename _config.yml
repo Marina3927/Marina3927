@@ -35,8 +35,8 @@ github_username:  marina3927
 
 # Build settings
 # theme: jekyll-theme-cayman
-# theme: minimal
-remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+theme: minimal
+# remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 plugins:
   - jekyll-feed
   - jekyll-paginate
